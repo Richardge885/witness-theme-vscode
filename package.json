@@ -2,7 +2,7 @@
   "name": "witness-theme",
   "displayName": "Witness Theme",
   "description": "A Sublime Text Witness Theme replication for VScode",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "publisher": "RichardGe",
   "engines": {
     "vscode": "^1.79.0"
