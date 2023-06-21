@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Richardge885/witness-theme-vscode.git"
   },
   "keywords": [
     "theme",
@@ -21,6 +21,10 @@
     "dark",
     "dark theme"
   ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {
