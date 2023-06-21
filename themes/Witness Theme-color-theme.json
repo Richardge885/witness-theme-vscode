@@ -40,7 +40,7 @@
         },
         {
             "name": "Variables",
-            "scope": ["variable", "string constant.other.placeholder"],
+            "scope": ["variable", "string constant.other.placeholder", "source.python"],
             "settings": {
                 "foreground": "#aee2ec"
             }
@@ -172,9 +172,9 @@
         {
             "name": "Function, Special Method",
             "scope": [
-                "entity.name.function",
                 "meta.function-call",
                 "variable.function",
+                "entity.name.function",
                 "support.function",
                 "keyword.other.special-method"
             ],
@@ -232,7 +232,13 @@
         },
         {
             "name": "String",
-            "scope": ["string", "string.quoted.double", "string.quoted.single"],
+            "scope": [
+                "string",
+                "string.quoted.double",
+                "string.quoted.single",
+                "string.template.js",
+                "string.template.ts"
+            ],
             "settings": {
                 "foreground": "#02ebb1fe"
             }
@@ -243,7 +249,6 @@
                 "string",
                 "constant.other.symbol",
                 "constant.other.key",
-                "entity.other.inherited-class",
                 "markup.heading",
                 "markup.inserted.git_gutter",
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -257,6 +262,7 @@
             "scope": [
                 "entity.name",
                 "support.type",
+                "entity.other.inherited-class",
                 "support.class",
                 "support.other.namespace.use.php",
                 "meta.use.php",
@@ -319,15 +325,14 @@
                 "variable.other.class.js"
             ],
             "settings": {
-                "foreground": "#FF5370"
+                "foreground": "#aee2ec"
             }
         },
         {
             "name": "Language methods",
             "scope": ["variable.language"],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FF5370"
+                "foreground": "#aee2ec"
             }
         },
         {
@@ -405,7 +410,7 @@
             "name": "Regular Expressions",
             "scope": ["string.regexp"],
             "settings": {
-                "foreground": "#89DDFF"
+                "foreground": "#02ebb1fe"
             }
         },
         {
@@ -434,7 +439,14 @@
         // },
         {
             "name": "Decorators",
-            "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end",
+                "punctuation.definition.string.template.begin.js",
+                "punctuation.definition.string.template.end.js",
+                "punctuation.definition.string.template.begin.ts",
+                "punctuation.definition.string.template.end.ts"
+            ],
             "settings": {
                 "foreground": "#02ebb1fe"
             }
