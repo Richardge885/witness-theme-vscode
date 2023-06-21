@@ -27,8 +27,8 @@
         "editorRuler.foreground": "#685d4d",
         "terminal.background": "#042326",
         "terminal.foreground": "#d9c098",
-        "tab.activeBackground": "#042326",
-        "tab.inactiveBackground": "#07444b"
+        "tab.activeBackground": "#07444b",
+        "tab.inactiveBackground": "#042326"
     },
     "tokenColors": [
         {
