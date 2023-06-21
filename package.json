@@ -1,0 +1,33 @@
+{
+  "name": "witness-theme",
+  "displayName": "Witness Theme",
+  "description": "A Sublime Text Witness Theme replication for VScode",
+  "version": "1.0.0",
+  "publisher": "RichardGe",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "theme",
+    "witness theme",
+    "witness",
+    "dark",
+    "dark theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Witness Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Witness Theme-color-theme.json"
+      }
+    ]
+  }
+}
